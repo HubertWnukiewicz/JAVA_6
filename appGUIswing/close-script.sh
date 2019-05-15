@@ -1,0 +1,1 @@
+kill $(ps | grep java | while read x; do echo $x | cut -d' ' -f1; done)
